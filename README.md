@@ -1,2 +1,2 @@
-# Apasys-Reversing
-Reversing Practice 
+# Apasys-Python
+Python Practice 

@@ -1,9 +1,5 @@
-#파이썬은 원하는 내용이 담긴 모듈을 파이썬 파일로 만들 수 있다. 
+import numpy as np
 
-# 1) python파일을 생성한 후 함수와 변수를 만든다.
-# 2) 다르 파일에서 만들어둔 python파일을 불러온다.
-# 3) 불러온 모듈 속 함수, 변수를 활용한다.
+array = np.array(range(5)) # 0부터 4까지의 배열을 생성한다.
 
-import cal #cal.py를 import한다.
-
-print(cal.plus(3, 4))
+print(array) # [0 1 2 3 4]를 출력한다.
